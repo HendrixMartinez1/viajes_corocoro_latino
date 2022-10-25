@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Corocoro latino</title>
+    <!--Fuente Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../assets/imagen/vuelo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./vuelos_disponibles.html">vuelos_disponibles</a></li>
+                <li><a href="./venta_de_boletos.html">venta_de_boletos</a></li>
+                <li><a href="./destinos.html">destinos</a></li>
+                <li><a href="./acerca_de_nosotros.html">acerca_de_nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Venta de Boletos</h1>
+        <section>
+            <form>
+                <fieldset class="ticketsale cfont">
+                    <h2>Datos Personales:</h2>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div>
+                        <label for="">Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div>Sexo:</div>
+                    <div>
+                        <select name="Sexo:">
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                            <option value="x">x</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">DNI:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Nºtelefonico:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Email:</label>
+                        <input type="email" name="" id="">
+                    </div>
+                    <input type="reset">
+                    <input type="submit">
+            </form>
+            </fieldset>
+            <fieldset class="pay cfont">
+                <h2>Descripción y Pago</h2>
+                <div>Desde:</div>
+                <div>
+                    <select name="Desde:">
+                        <option value="Buenos Aires.Argentina">Buenos Aires</option>
+                        <option value="Mar del Plata">Mar del Plata</option>
+                        <option value="Bariloche">Bariloche</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="------------"></option>
+                        <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
+                        <option value="Santiago de Chile">Santiago de Chile</option>
+                        <option value="Caracas-Venezuela">Caracas-Venezuela</option>
+                        <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana</option>
+                    </select>
+                </div>
+                <div>Hasta:</div>
+                <div>
+                    <select name="Hasta:">
+                        <option value="Buenos Aires.Argentina">Buenos Aires</option>
+                        <option value="Mar del Plata">Mar del Plata</option>
+                        <option value="Bariloche">Bariloche</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="------------"></option>
+                        <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
+                        <option value="Santiago de Chile">Santiago de Chile</option>
+                        <option value="Caracas-Venezuela">Caracas-Venezuela</option>
+                        <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana</option>
+                    </select>
+                </div>
+                <form>
+                    <div>
+                        <label for="">Fecha:</label>
+                        <input type="date" name="" id="">
+                    </div>
+                    <div>Medios de Pago :</div>
+                    <div>
+                        <div>Tarjeta Crédito</div>
+                        <input type="radio" name="Medios de Pago" id="Tajeta Crédito">
+                    </div>
+                    <div>
+                        <div>Tajeta Débito</div>
+                        <input type="radio" name="Medios de Pago" id="Tarjeta Débito">
+                    </div>
+                    <div>
+                        <label for="">Número de Tarjeta:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Fecha de vencimiento:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Código:</label>
+                        <input type="text">
+                    </div>
+                    <input type="reset">
+                    <input type="submit">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+
+</html>
