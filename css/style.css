@@ -105,7 +105,7 @@ body {
 #caja {
     background-image: linear-gradient(to bottom, rgb(22, 30, 153), rgb(41, 47, 85));
     width: 1480px;
-    height: 220px;
+    height: 280px;
     margin-left: 5px;
     margin: 220 px;
     padding: 3px;
@@ -122,7 +122,7 @@ table {
 #caja2 {
     background-image: linear-gradient(to bottom, rgb(22, 30, 153), rgb(41, 47, 85));
     width: 1480px;
-    height: 350px;
+    height: 450px;
     margin: 5px;
     padding: 1px;
 }
@@ -166,8 +166,9 @@ table {
 #interline {
     text-align: justify;
     line-height: 1.6;
-    line
+    
 }
+
 .fend {
    
    justify-content:flex-end;
@@ -226,7 +227,6 @@ footer {
         grid-template-rows: 1fr 2fr 1fr;
     }
 
-    
     .galeria img{
         width: 46%;
         margin: 1%;
@@ -253,8 +253,7 @@ footer {
     .pay{
        width:100%
     }
-
-
+    
     nav ul li a {
         padding: 1px;
         padding-top: 1px;
@@ -312,6 +311,8 @@ footer {
     50% {
         font-size: 25px;
     } 
+
+
 
     
 
