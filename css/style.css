@@ -213,9 +213,14 @@ footer {
     width: 2;
 }
 
+.whatsapplogo {
+    width: 2;
+}
+
 .ico {
     width: 2;
 }
+
 
 @media screen and (max-width: 720px) {
 
