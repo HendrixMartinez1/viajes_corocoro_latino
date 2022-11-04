@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/imagen/vuelo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -29,116 +30,123 @@
     <main>
         <h1>Venta de Boletos</h1>
         <section>
-            <form>
-                <fieldset class="ticketsale cfont">
-                    <h2>Datos Personales:</h2>
+            <fieldset class="container  radio ticketsale">
+                <form>
+                    <h2>Datos personales</h2>
                     <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="">
+                        <label for="">Nombre:</label>
+                        <input class="radio" type="text" placeholder="">
                     </div>
                     <div>
-                        <label for="">Apellido</label>
-                        <input type="text">
+                        <label for="">Apellido:</label>
+                        <input class="radio" type="text">
                     </div>
                     <div>Sexo:</div>
                     <div>
-                        <select name="Sexo:">
-                            <option value="M">Masculino</option>
-                            <option value="F">Femenino</option>
-                            <option value="x">x</option>
+                        <select class="radio" name="Sexo:">
+                            <option value="M">M</option>
+                            <option value="F">F</option>
+                            <option value="x">X</option>
                         </select>
                     </div>
                     <div>
                         <label for="">DNI:</label>
-                        <input type="text">
+                        <input class="radio" type="text">
                     </div>
                     <div>
                         <label for="">Nºtelefonico:</label>
-                        <input type="text">
+                        <input class="radio" type="text">
                     </div>
                     <div>
                         <label for="">Email:</label>
-                        <input type="email" name="" id="">
+                        <input class="radio" type="email" name="" id="">
                     </div>
-                    <input type="reset">
-                    <input type="submit">
-            </form>
-            </fieldset>
-            <fieldset class="pay cfont">
-                <form>
-                    <h2>Descripción y Pago</h2>
-                    <div>Desde:</div>
-                    <div>
-                        <select name="Desde:">
-                            <option value="">-----</option>
-                            <option value="Buenos Aires.Argentina">Buenos Aires</option>
-                            <option value="Córdoba">Córdoba</option>
-                            <option value="Mar del Plata">Mar del Plata</option>
-                            <option value="Bariloche">Bariloche</option>
-                            <option value="Mendoza">Mendoza</option>
-                            <option value="Destinos Internacionales:">Destinos Internacionales:</option>
-                            <option value="Montevideo-uruguay">Montevideo-Uruguay</option>
-                            <option value="Santiago de Chile">Santiago de Chile</option>
-                            <option value="Caracas-Venezuela">Caracas-Venezuela</option>
-                            <option value="Panamá">Panamá</option>
-                            <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana
-                            </option>
-                            <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
-                        </select>
-                    </div>
-                    <div>Hasta:</div>
-                    <div>
-                        <select name="Hasta:">
-                            <option value="">----</option>
-                            <option value="Buenos Aires.Argentina">Buenos Aires</option>
-                            <option value="Córdoba">Córdoba</option>
-                            <option value="Mar del Plata">Mar del Plata</option>
-                            <option value="Bariloche">Bariloche</option>
-                            <option value="Mendoza">Mendoza</option>
-                            <option value="Destinos Internacionales:">Destinos Internacionales:</option>
-                            <option value="Montevideo-Uruguay">Montevideo-Uruguay</option>
-                            <option value="Santiago de Chile">Santiago de Chile</option>
-                            <option value="Caracas-Venezuela">Caracas-Venezuela</option>
-                            <option value="Panamá">Panamá</option>
-                            <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana
-                            </option>
-                            <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
-                            <input type="reset">
-                        </select>
-                    </div>
+                    <input class="radio" type="reset">
                 </form>
-                <form>
-                    <div>
-                        <label for="">Fecha:</label>
-                        <input type="date" name="" id="">
-                    </div>
-                    <div>Medios de Pago :</div>
-                    <div>
-                        <div>Tarjeta Crédito</div>
+            
+                </fieldset>
+                <fieldset class="container radio ticketsale">
+                    <form>
+                        <h2>Destino</h2>
+                        <div>
+                            <label for="">Fecha:</label>
+                            <input class="radio" type="date" name="" id="">
+                        </div>
+                        <div>Desde:</div>
+                        <div>
+                            <select class="radio" name="Desde:">
+                                <option value="">-----</option>
+                                <option value="Buenos Aires.Argentina">Buenos Aires</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Mar del Plata">Mar del Plata</option>
+                                <option value="Bariloche">Bariloche</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="Destinos Internacionales:">Destinos Internacionales:</option>
+                                <option value="Montevideo-uruguay">Montevideo-Uruguay</option>
+                                <option value="Santiago de Chile">Santiago de Chile</option>
+                                <option value="Caracas-Venezuela">Caracas-Venezuela</option>
+                                <option value="Panamá">Panamá</option>
+                                <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana
+                                </option>
+                                <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
+                            </select>
+                        </div>
+                        <div>Hasta:</div>
+                        <div>
+                            <select class="radio" name="Hasta:">
+                                <option value="">----</option>
+                                <option value="Buenos Aires.Argentina">Buenos Aires</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Mar del Plata">Mar del Plata</option>
+                                <option value="Bariloche">Bariloche</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="Destinos Internacionales:">Destinos Internacionales:</option>
+                                <option value="Montevideo-Uruguay">Montevideo-Uruguay</option>
+                                <option value="Santiago de Chile">Santiago de Chile</option>
+                                <option value="Caracas-Venezuela">Caracas-Venezuela</option>
+                                <option value="Panamá">Panamá</option>
+                                <option value="Santo Domingo-República Dominicana">Santo Domingo-República Dominicana
+                                </option>
+                                <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
+                                <input  class="radio" type="reset">
+                            </select>
+                        </div>
+                    </form>
+                    </fieldset>
+                    <fieldset class="container radio ticketsale">
+                        <form>
+                        <h2>Forma de pago</h2>
+                        
+                        <div>
+                            <label for="">NºTarjeta:</label>
+                            <input class="radio" type="text">
+                        </div>
+                        <div>
+                        <div>Crédito</div>
                         <input type="radio" name="Medios de Pago" id="Tajeta Crédito">
                     </div>
-                    <div>
-                        <div>Tajeta Débito</div>
-                        <input type="radio" name="Medios de Pago" id="Tarjeta Débito">
+                        <div>
+                            <div>Débito</div>
+                            <input type="radio" name="Medios de Pago" id="Tarjeta Débito">
+                        </div>
+                        
+                            <div>
+                                <label for="">Fecha vencimiento:</label>
+                                <input class="radio" type="text">
+                            </div>
+    
+                            <div>
+                                <label for="">Código:</label>
+                                <input class="radio" type="text">
+                            </div>
+                            <div>
+                        <input class="radio"  type="reset">
+                        <input class="radio" type="submit">
                     </div>
-                    <div>
-                        <label for="">Número de Tarjeta:</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for="">Fecha de vencimiento:</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label for="">Código:</label>
-                        <input type="text">
-                    </div>
-                    <input type="reset">
-                    <input type="submit">
-                </form>
-            </fieldset>
-        </section>
-    </main>
-</body>
-
-</html>
+                    </form>
+                </fieldset>
+            </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      </main>  
+    </body>
+    </html>

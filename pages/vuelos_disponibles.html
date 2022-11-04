@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
     <link rel="icon" href="../assets/imagen/vuelo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -29,90 +29,89 @@
     </header>
     <main>
         <h1>Vuelos Disponibles</h1>
-        <section id="caja2">
-            <table border="2px" cellpading="9px" cellspacing=9px" class="fondoborder">
-                <thead>
-                    <tr class="fondo">
-                        <td>Vuelos Nacionales:</td>
-                        <td>Precio Ida:</td>
-                        <td>Ida y Vuelta:</td>
-                    </tr>
-                <tbody class="fondo">
-                    <tr>
-                        <td>Buenos Aires</td>
-                        <td>$5500</td>
-                        <td>$11000</td>
-                    </tr>
-                    <td>Mar del Plata</td>
-                    <td>$6200</td>
-                    <td>$12400</td>
-                    <tr>
-                        <td>Bariloche</td>
-                        <td>$6700</td>
-                        <td>$13400</td>
-                    </tr>
-                    <tr>
-                        <td>Mendoza</td>
-                        <td>$5200</td>
-                        <td>$10400</td>
-                    </tr>
-                    <tr>
-                        <td>Córdoba</td>
-                        <td>$5500</td>
-                        <td>$11000</td>
-                    </tr>
-                </tbody>
-                </thead>
-            </table>
-
-            <section>
-                <table border="1px" cellpadding="9px" cellspacing=9px" class="fondoborder">
+        <section class="container">
+            <div class="row"></div>
+               <div class="col"></div>
+                <table class="table table-info table-hover table-bordered table-sm">
                     <thead>
-                        <tr class="fondo">
-                            <td>Vuelos Internacionales:</td>
-                            <td>Precio Ida:</td>
-                            <td>Ida y Vuelta:</td>
+                        <tr class="table-secondary text-center">
+                            <th>Vuelos Nacionales</th>
+                            <th>Precio Ida</th>
+                            <th>Ida y Vuelta</th>
                         </tr>
-                    <tbody class="fondo">
+                    </thead>   
+                    <tbody>
                         <tr>
+                            <td>Buenos Aires</td>
+                            <td class="text-center" >$5500</td>
+                            <td class="text-center">$11000</td>
+                        </tr>
+                        <tr>   
+                            <td>Mar del Plata</td>
+                            <td class="text-center">$6200</td>
+                            <td class="text-center">$12400</td>
+                        <tr>
+                            <td>Bariloche</td>
+                            <td class="text-center">$6700</td>
+                            <td class="text-center">$13400</td>
+                        </tr>
+                        <tr>
+                            <td>Mendoza</td>
+                            <td class="text-center">$5200</td>
+                            <td class="text-center">$10400</td>
+                        </tr>
+                        <tr>
+                            <td>Córdoba</td>
+                            <td class="text-center">$5500</td>
+                            <td class="text-center">$11000</td>
+                        </tr>
+                    
+                    <thead>
+                            <tr>
+                                <th class="table-secondary text-center">Vuelos Internacionales</th>
+                            </tr>
+                    </thead>       
+                
+                    <tbody>
+                        <tr class="table-info">
                             <td>Rio de Janeiro-Brasil</td>
-                            <td>$16000</td>
-                            <td>$32000</td>
+                            <td class="text-center">$16000</td>
+                            <td class="text-center">$32000</td>
                         </tr>
                         <tr>
                             <td>Uruguay</td>
-                            <td>$17500</td>
-                            <td>$35000</td>
+                            <td class="text-center">$17500</td>
+                            <td class="text-center">$35000</td>
                         </tr>
-                        <tr>
+                        <tr class="table-info">
                             <td>Santiago de Chile</td>
-                            <td>$17000</td>
-                            <td>$34000</td>
+                            <td class="text-center">$17000</td>
+                            <td class="text-center">$34000</td>
                         </tr>
                         <tr>
                             <td>Caracas-Venezuela</td>
-                            <td>$23000</td>
-                            <td>$46000</td>
+                            <td class="text-center">$23000</td>
+                            <td class="text-center">$46000</td>
                         </tr>
-                        <tr>
+                        <tr class="table-info">
                             <td>Panamá</td>
-                            <td>$28000</td>
-                            <td>$56000</td>
+                            <td class="text-center">$28000</td>
+                            <td class="text-center">$56000</td>
                         </tr>
                         <tr>
                             <td>Santo Domingo-República Dominicana</td>
-                            <td>$27000</td>
-                            <td>$54000</td>
+                            <td class="text-center">$27000</td>
+                            <td class="text-center">$54000</td>
                         </tr>
                     </tbody>
-                    </thead>
                 </table>
-
-                <footer class="fend">
-                    <h2>Ven y conoce nuestros destinos . . . .</h2>
-                </footer>
             </section>
+                            
+            <footer class="fend">
+                <h2>Ven y conoce nuestros destinos . . . .</h2>
+            </footer>
+        </section>
     </main>
-</body>
-
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+    </html> 
