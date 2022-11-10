@@ -108,15 +108,10 @@ main {
    color: rgb(193, 231, 245)
 }
 
-#interline {
+.interline {
    text-align: justify;
    line-height: 1.6;
 
-}
-
-.fend {
-
-   justify-content: flex-end;
 }
 
 footer {
@@ -132,13 +127,12 @@ footer {
    margin-top: 0;
    margin-left: 2vw;
    margin-right: 2vw;
-
+   
 }
 
-.grupopie {
-   margin: auto;
-   display: flex;
+.fend {
 
+   justify-content: flex-end;
 }
 
 .galeria {
@@ -148,6 +142,12 @@ footer {
    row-gap: 15px;
    margin-left: 1vw;
    margin-right: 1vw;
+}
+
+.grupopie {
+   margin: auto;
+   display: flex;
+
 }
 
 .twitterlogo {
@@ -228,11 +228,12 @@ h1 {
     }
             
 header{
+        display: flex;
         justify-content: center;
     }
     
 header nav {
-            height: 100px;
+            height: 120px;
             
         }
     
