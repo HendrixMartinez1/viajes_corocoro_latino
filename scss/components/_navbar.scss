@@ -1,0 +1,41 @@
+header{
+    background-image: linear-gradient(to top, rgb(24, 71, 182), rgb(19, 50, 122));
+    grid-area: encabezado;
+
+      nav{
+        height: 100px;
+
+          ul{
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 5vw ;
+            flex-wrap: wrap;
+            list-style: none;
+
+                   li{
+                       background-image: linear-gradient(to right, rgb(236, 236, 245), rgb(198, 198, 214));
+                       margin: 20px;
+                       padding: 3px;
+                       border-radius: 6px;
+                       padding-top: 3px;  
+
+                          a{
+                            text-decoration: none;
+                 }
+            }
+
+        }
+
+     }
+  }
+           
+
+
+
+
+
+
+
+

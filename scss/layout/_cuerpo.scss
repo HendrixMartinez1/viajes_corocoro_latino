@@ -1,0 +1,15 @@
+.cuerpo {
+    display: grid;
+    grid-template-areas: "encabezado encabezado"
+        "seccion  seccion"
+        "pie   pie";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+main {
+    grid-area: seccion;
+
+}

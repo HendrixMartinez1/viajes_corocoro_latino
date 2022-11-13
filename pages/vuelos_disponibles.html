@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | Corocoro latino</title>
-    <!--Fuente Google Fonts-->
+    <meta name="description" content=" Agencia de viajes Corocoro Latino">
+    <meta name="keywords" content="Destinos disponibles, Js">
+    <title>Vuelos disponibles | Corocoro latino</title>
+       <!--Fuente Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/imagen/vuelo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./vuelos_disponibles.html">vuelos_disponibles</a></li>
-                <li><a href="./venta_de_boletos.html">venta_de_boletos</a></li>
-                <li><a href="./destinos.html">destinos</a></li>
-                <li><a href="./acerca_de_nosotros.html">acerca_de_nosotros</a></li>
+    <nav class="navbar-expand-md navbar-dark bg-dark">
+        <div class="container_fluid">
+          <!--boton del menu-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--elementos del menu -->
+          <div class="collapse-navbar-collapse" id="menu">
+            <ul class="nav  justify-content-end">
+              <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">vuelos disponibles</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/venta_de_boletos.html">venta de boletos</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/destinos.html">destinos</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/acerca_de_nosotros.html">acerca de nosotros</a></li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
     <main>
         <h1>Vuelos Disponibles</h1>
         <section class="container">

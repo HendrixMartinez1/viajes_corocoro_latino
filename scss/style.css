@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.cuerpo {
+  display: grid;
+  grid-template-areas: "encabezado encabezado" "seccion  seccion" "pie   pie";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}
+
+main {
+  grid-area: seccion;
+}
+
+header {
+  background-image: linear-gradient(to top, rgb(24, 71, 182), rgb(19, 50, 122));
+  grid-area: encabezado;
+}
+header nav {
+  height: 100px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5vw;
+  flex-wrap: wrap;
+  list-style: none;
+}
+header nav ul li {
+  background-image: linear-gradient(to right, rgb(236, 236, 245), rgb(198, 198, 214));
+  margin: 20px;
+  padding: 3px;
+  border-radius: 6px;
+  padding-top: 3px;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(193, 231, 245);
+  background-image: linear-gradient(to bottom, rgb(33, 77, 181), rgb(30, 75, 180));
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 1vw;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 1vw;
+  -webkit-animation-name: un_efecto;
+          animation-name: un_efecto;
+  -webkit-animation-iteration-count: 6s;
+          animation-iteration-count: 6s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes un_efecto {
+  0% {
+    font-size: 10px;
+  }
+  25% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+  }
+}
+
+@keyframes un_efecto {
+  0% {
+    font-size: 10px;
+  }
+  25% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+  }
+}
+body {
+  background-image: url(https://services.meteored.com/img/article/cuantos-azules-tiene-el-cielo-289011-2_1280.jpg);
+}
+
+.fondo {
+  background-color: rgb(17, 50, 103);
+  color: rgb(193, 231, 245);
+  font-weight: bold;
+  font-size: medium;
+}
+
+.radio {
+  border-radius: 0.5vw;
+}
+
+.ticketsale {
+  background-color: rgb(17, 50, 103);
+  color: rgb(193, 231, 245);
+  font-weight: bold;
+}
+
+.about_us {
+  background-color: rgb(17, 50, 103);
+  margin: 50px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.loren {
+  color: rgb(193, 231, 245);
+}
+
+.interline {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+footer {
+  grid-area: pie;
+  background-color: rgb(193, 231, 245);
+  border-radius: 1vw;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60%;
+  margin-top: 0;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.grupopie {
+  margin: auto;
+  display: flex;
+}
+
+.fend {
+  justify-content: flex-end;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 15px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.twitterlogo {
+  width: 2;
+}
+
+.facebooklogo {
+  width: 2;
+}
+
+.youtubelogo {
+  width: 2;
+}
+
+.linkedinlogo {
+  width: 2;
+}
+
+.instagramlogo {
+  width: 2;
+}
+
+.ico {
+  width: 2;
+}/*# sourceMappingURL=style.css.map */
