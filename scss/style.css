@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   color: rgb(193, 231, 245);
   background-image: linear-gradient(to bottom, rgb(33, 77, 181), rgb(30, 75, 180));
@@ -156,7 +156,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  row-gap: 4vw;
+  row-gap: 15px;
   margin-left: 1vw;
   margin-right: 1vw;
 }
