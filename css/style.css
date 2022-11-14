@@ -17,37 +17,37 @@
 }
 
 header {
-    background-image: linear-gradient(to top, rgb(24, 71, 182), rgb(19, 50, 122));
-    grid-area: encabezado;
+   background-image: linear-gradient(to top, rgb(24, 71, 182), rgb(19, 50, 122));
+   grid-area: encabezado;
 
 }
 
 header nav {
-  
-    height: 100px;
+ 
+   height: 100px;
 }
-   
+  
 header nav ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 5vw ;
-    flex-wrap: wrap;
-    list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: 5vw ;
+   flex-wrap: wrap;
+   list-style: none;
 
 }
-    
+   
 nav ul li a {
-  
-   background-image: linear-gradient(to right, rgb(236, 236, 245), rgb(198, 198, 214));
-   margin: 20px;
-   padding: 3px;
-   border-radius: 6px;
-   padding-top: 3px;
+ 
+  background-image: linear-gradient(to right, rgb(236, 236, 245), rgb(198, 198, 214));
+  margin: 20px;
+  padding: 3px;
+  border-radius: 6px;
+  padding-top: 3px;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -177,11 +177,11 @@ footer {
 @media screen and (max-width: 720px) {
 
 .cuerpo {
-            grid-template-areas: "encabezado encabezado"
-                "seccion seccion"
-                "pie pie";
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 2fr 1fr;
+      grid-template-areas: "encabezado encabezado"
+         "seccion seccion"
+         "pie pie";
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 2fr 1fr;
             
         }
     
@@ -198,28 +198,28 @@ nav ul li a {
 .galeria img {
                 width: 46%;
                margin: 1%;
-           }
+}
              
 h1 {
            font-size: 4vw;
-            }
+}
              
 .radio {
        
        border-radius: 0.5vw;
-    } 
+} 
          
 }
     
 @media screen and (max-width: 360px) {
     .cuerpo {
-            grid-template-areas: "encabezado"
-                                 "seccion "
-                                 "pie";
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 2fr 1fr;
+         grid-template-areas:"encabezado"
+                             "seccion "
+                             "pie";
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 2fr 1fr;
             
-        }
+}
     
 .galeria img {
             display: flex;
@@ -228,12 +228,12 @@ h1 {
     }
             
 header{
-        display: flex;
-        justify-content: center;
-    }
+   justify-content: center;
+}
+        
     
 header nav {
-            height: 120px;
+            height: 100px;
             
         }
     
@@ -244,13 +244,13 @@ header nav ul {
         
 nav ul li a {
            flex-direction: column;
-           padding: 1%;
-           padding-top: 1%;
+           
            justify-items: center;     
        }
                 
 h1 {
-       font-size: 6%;
+       font-size: 8vw;
+       margin: 0;
        }
                 
 .grupopie {
@@ -282,3 +282,4 @@ h1 {
         font-size: 25px;
     } 
     
+   }

@@ -8,21 +8,21 @@
         grid-template-rows: 1fr 2fr 1fr;
 
     }
-
+    
+    .galeria img {
+        width: 46vw;
+        margin: 1vw;
+    }
+    
     header nav {
         height: 10vw;
     }
-
 
     nav ul li a {
         padding: 1px;
         padding-top: 1px;
     }
 
-    .galeria img {
-        width: 46%;
-        margin: 1%;
-    }
 
     h1 {
         font-size: 4vw;
@@ -47,8 +47,8 @@
 
     .galeria img {
         display: flex;
-        width: 100%;
-        margin: 0;
+        width: 0vw;
+        margin: 0vw;
     }
 
     header {
@@ -68,13 +68,13 @@
 
     nav ul li a {
         flex-direction: column;
-        padding: 1%;
-        padding-top: 1%;
+       
         justify-items: center;
     }
 
     h1 {
-        font-size: 8vw;
+        
+        font-size: 30px;
     }
 
     .grupopie {
@@ -86,6 +86,12 @@
 
     .radio {
         border-radius: 0.5vw;
+    }
+
+    footer{
+
+        height: 40%;
+        margin-top: 0%;
     }
     
 }
