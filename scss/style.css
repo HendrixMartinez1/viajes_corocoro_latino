@@ -183,4 +183,70 @@ footer {
 
 .ico {
   width: 2;
+}
+
+@media screen and (max-width: 720px) {
+  .cuerpo {
+    grid-template-areas: "encabezado encabezado" "seccion seccion" "pie pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+  .galeria img {
+    width: 46vw;
+    margin: 1vw;
+  }
+  header nav {
+    height: 10vw;
+  }
+  nav ul li a {
+    padding: 1px;
+    padding-top: 1px;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  .radio {
+    border-radius: 0.5vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cuerpo {
+    grid-template-areas: "encabezado" "seccion " "pie";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+  .galeria img {
+    display: flex;
+    width: 0vw;
+    margin: 0vw;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header nav {
+    height: 100px;
+  }
+  header nav ul {
+    justify-content: center;
+  }
+  nav ul li a {
+    flex-direction: column;
+    justify-items: center;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .grupopie {
+    font-size: small;
+    margin: auto;
+    display: flex;
+  }
+  .radio {
+    border-radius: 0.5vw;
+  }
+  footer {
+    height: auto;
+    margin-top: 0%;
+  }
 }/*# sourceMappingURL=style.css.map */
