@@ -217,7 +217,7 @@ footer {
   }
   .galeria img {
     display: flex;
-    width: 0vw;
+    width: 20rem;
     margin: 0vw;
   }
   header {
